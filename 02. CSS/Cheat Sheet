@@ -1,0 +1,29 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element---> normal selector.
+element1, element2 ---> selecting both the elements individually.
+element1 element2 ---> selecting the element2 inside the element1 tag.
+element1 > element2 --->selecting the element2 where element1 is the direct parent.
+element1 + element2 --->selecting the element2 that is right after the element1 tag.
+:hover --->transition between the hovered element and the non hovered element,
+            there are many such options for transitions like active etc..
+:last-child--> applies the attributes only to the last child of the particular tag,
+                for example a <div> tag has many tags of <p>,in this case only the last child as in the last <p> tag attains the attributes allotted to the <div> tag. 
+:first-child--> same as the last-child selector but applies to the first child only
+!important (not recommended)----> changes the tag to top priority no matter what the tag holds.
+
+
+What seletors win out in the cascade depends on:
+-Specificity --->link(specificity calculator) https://specificity.keegan.st/
+-Importance
+-Source Order
