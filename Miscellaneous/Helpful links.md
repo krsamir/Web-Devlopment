@@ -6,3 +6,4 @@
 * [Free e-book](https://flaviocopes.com/)
 * [Css-tricks](https://css-tricks.com/)
 * [Color Picker](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+* [Sega Logo Font](https://www.cufonfonts.com/font/sega-logo-font)
